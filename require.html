@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script data-main="./js/main.js"  src='js/require.js'></script>
+    <style id="span">
+    
+    </style>
+    
+    
+    <script>
+
+        /*
+        script标签中的data-main属性是告诉require.js,加载完requireJS之后，马上去载入真正的入口文件，它一般用来对requireJS
+        的config进行配置，并且载入真正的程序模块
+        相当于在当前页面引入了main.js这个文件，main.js文件此时的路径是在require.html所在的路径
+        */
+
+
+
+    // require(['jquery','text','text!css/1.css'],function($,css1){
+    //     $('#span').text(css1);
+    // });
+    </script>
+</head>
+<body>
+    <span>body</span>
+</body>
+</html>
